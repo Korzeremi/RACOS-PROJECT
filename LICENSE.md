@@ -2,7 +2,7 @@ Licence d'utilisation du Logiciel RACOS
 
 Version 0.1
 
-Cette licence ("Licence") est accordée à Korzeremi de l'entreprise Lemnixtech ("Licencié") par Lemnixtech pour l'utilisation du logiciel RACOS (le "Logiciel").
+Cette licence ("Licence") est accordée à tout utilisateur ("Licencié") par Lemnixtech pour l'utilisation du logiciel RACOS (le "Logiciel").
 
 1. Autorisation d'utilisation :
 
