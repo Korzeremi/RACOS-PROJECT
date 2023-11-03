@@ -1,8 +1,14 @@
 # RACOS : a MACINTOSH OS CLONE
 ## Presentation
-Made with several web modern technologies, RACOS allows you to try a MACOS-Like experience. 
+Made with web modern technologies, RACOS allows you to try a cloud MACOS-Like experience. 
 ## Project status
-Current version is **0.1**
+We are currently working on the project.   
+
+### Current version is **0.1**
 | Date | Version | Working |
 | --- | --- | --- |
 | 3/11/2023 | 0.1 | - |
+
+## Technologies
+- Sass (SCSS)  
+- ReactJS
