@@ -1,0 +1,225 @@
+.content {
+    background-color: grey;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .screen-sct {
+        background-color: black;
+        height: 100vh;
+        width: 100vw;
+
+        .desktop-sct {
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+
+            .desktop-wp {
+                height: auto;
+                width: 100vw;
+            }
+        }
+
+        .ui-sct {
+            top: 0;
+            left: 0;
+            position: absolute;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            .panel-sct {
+                width: 100vw;
+                height: 4.5vh;
+                background-color: rgb(89, 89, 89);
+                opacity: 0.4;
+                display: flex;
+                justify-content: space-between;
+
+                .left-sct {
+                    display: flex;
+                    .logo-sct {
+                        height: 100%;
+                        width: auto;
+
+                        &:active {
+                            background-color: rgb(131, 129, 129);
+                        }
+
+                        .main-logo {
+                            height: 100%;
+                            width: auto;
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-start;
+                            margin-left: 0.85vw;
+                            margin-right: 0.85vw;
+    
+                            .logo-img {
+                                height: 65%;
+                                width: auto;
+                            }
+                        }
+                    }
+    
+                    .menu-sct {
+                        height: 4.5vh;
+                        width: auto;
+                        display: flex;
+                        
+                        .current-app {
+                            height: 4.5vh;
+                            width: 100%;
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                            margin-right: 0.85vw;
+    
+                            p {
+                                color: white;
+                                height: 100%;
+                                width: 100%;
+                                font-weight: bold;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                            }
+                        }
+    
+                        .btn-sct {
+                            height: 100%;
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-evenly;
+                            align-items: center;
+
+                            #hover-btn {
+                                height: 100%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;    
+
+                                &:active {
+                                    background-color: rgb(131, 129, 129);
+                                }
+
+                                #menu-btn {
+                                    margin-left: 0.3vw;
+                                    margin-right: 0.3vw;
+                                    color: white;
+                                    text-decoration: none;
+
+                                    &:hover {
+                                        cursor:default;
+                                    }
+                                }
+
+                            }
+                            
+    
+                        }
+    
+                        
+                    }
+                    
+
+                }
+
+                .tray-sct {
+                    height: 100%;
+                    width: auto;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+
+                    .icons-sct {
+                        height: 100%;
+                        width: auto;
+                        display: flex;
+                        align-items: center;
+
+                        .icon {
+                            margin-left: 0.3vw;
+                            margin-right: 0.3vw;
+                            color: white;
+                            cursor: default;
+                        }
+                    }
+
+                    .infos-sct {
+                        height: 100%;
+                        width: auto;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-left: 0.6vw;
+
+                        .date-sct {
+                            margin-right: 0.6vw;
+                            color: white;
+                            cursor: default;
+                        }
+
+                        .time-sct {
+                            margin-right: 0.6vw;
+                            color: white;
+                            cursor: default;
+                        }
+                    }
+                }
+            }
+
+            .dock-sct {
+                width: auto;
+                height: 8vh;
+                backdrop-filter: blur(35px);
+                background-color: rgba(255, 255, 255, 0.361);
+                border-radius: 12px 12px 0px 0px;
+                padding-left: 0.275vw;
+                padding-right: 0.275vw;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .dock-icon {
+                    height: 6.5vh;
+                    width: 6.5vh;
+                    margin-left: 0.25vw;
+                    margin-right: 0.25vw;
+                    background-color: rgb(120, 120, 120);
+                    border-radius: 10px;
+
+                    &:active {
+                        animation-duration: 0.7s;
+                        animation-delay: 0s;
+                        animation-name: launch;
+                    }
+                    
+                    @keyframes launch {
+                        0% {
+                            margin-bottom: 0vh;
+                        }
+                        25% {
+                            margin-bottom: 1.6vh;
+                        }
+                        50% {
+                            margin-bottom: 0vh;
+                        }
+                        75% {
+                            margin-bottom: 1.6vh;
+                        }
+                        100% {
+                            margin-bottom: 0vh;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
