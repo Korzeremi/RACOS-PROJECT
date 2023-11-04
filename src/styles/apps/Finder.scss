@@ -9,12 +9,13 @@
         width: 70vw;
         box-shadow: rgba(0, 0, 0, 0.366) 0px 0px 15px;
         border-radius: 11px 11px 11px 11px;
-        background-color: white;
 
         .app-header {
             width: 100%;
             height: 5%;
             display: flex;
+            background-color: #3f4143;
+            border-radius: 11px 11px 0px 0px;
             align-items: center;
             justify-content: space-between; 
 
@@ -28,16 +29,16 @@
 
                     .redlight {
                         background-color: red;
-                        height: 15px;
-                        width: 15px;
+                        height: 12.5px;
+                        width: 12.5px;
                         margin-left: 0.5vw;
                         border-radius: 30px;
                     }
     
                     .yellowlight {
                         background-color: orange;
-                        height: 15px;
-                        width: 15px;
+                        height: 12.5px;
+                        width: 12.5px;
                         margin-left: 0.3vw;
                         border-radius: 30px;
     
@@ -45,8 +46,8 @@
     
                     .greenlight {
                         background-color: green;
-                        height: 15px;
-                        width: 15px; 
+                        height: 12.5px;
+                        width: 12.5px; 
                         margin-left: 0.3vw;
                         border-radius: 30px;
                     }
@@ -63,13 +64,47 @@
                 font-size: 75%;
                 font-weight: 500;
                 margin-right: 0.6vw;
+                color: white;
             }
         }
 
         .app-sct {
             width: 100%;
             height: 95%;
-            background-color: grey;
+            display: flex;
+            border-radius: 0px 0px 11px 11px;
+
+            .select-sct {
+                height: 100%;
+                width: 25%;
+                background-color: rgba(100, 100, 116, 0.35);
+                backdrop-filter: blur(15px);
+                border-radius: 0px 0px 0px 11px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                overflow-y: auto;
+
+                .items-sct {
+                    // background-color: red;
+                    margin-top: 1.25%;
+                    width: 96.5%;
+                    height: 50%;
+                }
+
+                .other-sct {
+                    // background-color: yellow;
+                    width: 96.5%;
+                    height: 80%;
+                }
+            }
+
+            .main-sct {
+                height: 100%;
+                width: 75%  ;
+                background-color: #24292c;
+                border-radius: 0px 0px 11px 0px;
+            }
         }
     }
 }

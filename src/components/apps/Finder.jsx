@@ -12,7 +12,13 @@ export default function Finder() {
                     </div>
                     <div className="app-title">Finder</div>
                 </div>
-                <div className="app-sct"></div>
+                <div className="app-sct">
+                    <div className="select-sct">
+                        <div className="items-sct"></div>
+                        <div className="other-sct"></div>
+                    </div>
+                    <div className="main-sct"></div>
+                </div>
             </div>
         </div>
     )
