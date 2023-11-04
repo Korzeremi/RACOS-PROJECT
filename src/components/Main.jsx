@@ -1,6 +1,7 @@
 import '../styles/Main.scss'
 import Wp from '../assets/wp.png'
 import Logo from '../assets/logo.png'
+import Finder from './apps/Finder.jsx'
 
 export default function Main() {
     return (
@@ -8,6 +9,7 @@ export default function Main() {
             <div className="screen-sct">
                 <div className="desktop-sct">
                     <img className='desktop-wp' src={Wp} alt="" />
+                    <Finder className='finder' />
                 </div>
                 <div className="ui-sct">
                     <div className="panel-sct">
