@@ -3,6 +3,7 @@
     top: 10vh;
     left: 5vw;
     visibility: visible;
+    z-index: 999;
 
     .app2 {
         height: 70vh;
@@ -27,12 +28,14 @@
                     align-items: center;
 
 
+
                     .redlight {
                         background-color: red;
                         height: 12.5px;
                         width: 12.5px;
                         margin-left: 0.5vw;
                         border-radius: 30px;
+
                     }
     
                     .yellowlight {
@@ -73,6 +76,9 @@
             height: 95%;
             display: flex;
             border-radius: 0px 0px 11px 11px;
+            &:hover {
+                cursor:pointer;
+            }
 
             .select-sct {
                 height: 100%;

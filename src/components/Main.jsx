@@ -11,8 +11,9 @@ export default function Main() {
                     <img className='desktop-wp' src={Wp} alt="" />
                     <Finder className='finder' />
                 </div>
-                <div className="ui-sct">
-                    <div className="panel-sct">
+            </div>
+            <div className="ui-sct">
+                <div className="panel-sct">
                         <div className="left-sct">
                             <div className="logo-sct">
                                 <div className="main-logo">
@@ -60,18 +61,17 @@ export default function Main() {
                                 <div className="time-sct">7:45 PM</div>
                             </div>
                         </div>
-                    </div>
-                    <div className="dock-sct">
-                        <div className="dock-icon"></div>
-                        <div className="dock-icon"></div>
-                        <div className="dock-icon"></div>
-                        <div className="dock-icon"></div>
-                        <div className="dock-icon"></div>
-                        <div className="dock-icon"></div>
-                        <div className="dock-icon"></div>
-                        <div className="dock-icon"></div>
-                        <div className="dock-icon"></div>
-                    </div>
+                </div>
+                <div className="dock-sct">
+                    <div className="dock-icon"></div>
+                    <div className="dock-icon"></div>
+                    <div className="dock-icon"></div>
+                    <div className="dock-icon"></div>
+                    <div className="dock-icon"></div>
+                    <div className="dock-icon"></div>
+                    <div className="dock-icon"></div>
+                    <div className="dock-icon"></div>
+                    <div className="dock-icon"></div>
                 </div>
             </div>
         </div>
