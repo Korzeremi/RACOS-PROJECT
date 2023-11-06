@@ -1,0 +1,30 @@
+.viewBtnMain {
+    height: auto;
+    width: auto;
+    top: 4.5vh;
+    position: absolute;
+    left: auto;
+    background-color: rgb(147, 147, 147);
+    opacity: 1;
+    z-index: 999;
+    border-radius: 6px 6px 6px 6px ;
+    visibility: visible;
+
+    .view-item {
+        opacity: 1;
+        margin-left: 0.6vw;
+        margin-right: 0.6vw;
+        color: white;
+
+        &:hover {
+            cursor: default;
+            background-color: rgb(202, 202, 202);
+            color: black;
+        }
+    }
+
+    #view-item2 {
+        margin-bottom: 0.6vh;
+    }
+
+}

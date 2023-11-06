@@ -1,12 +1,21 @@
+import { useState } from 'react'
 import '../../styles/apps/Finder.scss'
 
 export default function Finder() {
+    const [appStatus, setAppStatus] = useState(true);
+    const quit = () => {
+        setAppStatus(false);
+    }
+    if (!appStatus) {
+        window.location.reload();
+        return null;
+    }
     return(
         <div className="content2">
             <div className="app2">
                 <div className="app-header">
                     <div className="traffic">
-                        <div className="redlight"></div>
+                        <div className="redlight" onClick={quit}></div>
                         <div className="yellowlight"></div>
                         <div className="greenlight"></div>                    
                     </div>
